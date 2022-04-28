@@ -30,7 +30,10 @@ else:
 
 peso = float(input("Ingrese su peso(kg): "))
 estatura = float(input("Ingrese su estatura(m): "))
-imc = peso/estatura**2
-imc = round(imc, 2)
-imc = str(imc)
-print("Tu índice de masa corporal es "+imc)
+if peso <= 0 and estatura <= 0:
+    print("Ingrese valores válidos.")
+else:
+    imc = peso/estatura**2
+    imc = round(imc, 2)
+    imc = str(imc)
+    print("Tu índice de masa corporal es "+imc)
