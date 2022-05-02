@@ -30,7 +30,7 @@ else:
 
 peso = float(input("Ingrese su peso(kg): "))
 estatura = float(input("Ingrese su estatura(m): "))
-if peso <= 0 and estatura <= 0:
+if peso <= 0 or estatura <= 0:
     print("Ingrese valores válidos.")
 else:
     imc = peso/estatura**2
