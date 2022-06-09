@@ -37,6 +37,10 @@ lista.pop() # Remueve el último elemento de la lista
 
 lista.pop(2) # Remueve un elemento específico de la lista según el índice que se le da
 
-del lista[0] # Remueve un elemento específico de la lista según el índice que se le da
+x = tuple(lista) # Convierte la lista en una tupla
+
+del lista # Elimina la lista
+
+del lista[0] # Elimina un elemento específico de la lista según el índice que se le da
 
 lista.clear() # Limpia por completo la lista
