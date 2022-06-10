@@ -28,3 +28,9 @@ print(tupla.index(3)) # Retorna el índice en donde se encuentra el 3, en este c
 x = list(tupla) # Convierte la tupla en una lista
 
 del tupla # Elimina la tupla
+
+"""
+count()	-> Returns the number of times a specified value occurs in a tuple
+index()	-> Searches the tuple for a specified value and returns the position of where it was found
+
+"""
