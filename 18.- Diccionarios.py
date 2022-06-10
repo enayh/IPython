@@ -2,7 +2,7 @@
 
 diccionario = {}
 
-diccionario_capitales = {'Chile' : 'Santiago', 'España' : 'Madrid', 'Argentina' : 'Mendoza'}
+diccionario_capitales = {'Chile' : 'Santiago', 'España' : 'Madrid', 'Argentina' : 'Buenos Aires'}
 
 print(diccionario_capitales['España'])
 
@@ -18,6 +18,8 @@ print(diccionario_capitales.values()) # Retorna todos los values del diccionario
 print(len(diccionario_capitales)) # Largo del diccionario
 
 print(type(diccionario_capitales)) # Tipo de dato
+
+del diccionario_capitales['Chile'] # Elimina la key Chile y su value Santiago
 
 """
 clear()	-> Removes all the elements from the dictionary
