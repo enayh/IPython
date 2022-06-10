@@ -1,10 +1,6 @@
 # Palíndromo
 
-# Escribir un programa que identifique si una palabra es palíndromo o no
-# Luz azul
-# Ana
-# Anita lava la tina
-# Yo hago Yoga hoy
+# Escribir un programa que identifique si una palabra es palíndromo o no. Luz azul, Ana, Anita lava la tina, Yo hago Yoga hoy
 
 def palindromo(palabra):
     palabra = palabra.replace(' ', '')
@@ -15,7 +11,7 @@ def palindromo(palabra):
     else:
         return False
 
-# Función principal main/run
+# Función principal main
 def main():
     palabra = input("Ingrese una frase: ")
     es_palindromo = palindromo(palabra)
@@ -26,7 +22,6 @@ def main():
         print("No es palíndromo")
     
 
-# Punto de entrada
-# Buena práctica
+# Punto de entrada - Buena práctica
 if __name__ == "__main__":
     main()

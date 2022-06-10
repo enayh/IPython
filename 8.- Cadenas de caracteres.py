@@ -1,6 +1,6 @@
 # Cadenas de caracteres
 
-nombre = input("¿Cuál es su nombre: ?")
+nombre = input("¿Cuál es su nombre? ")
 print(nombre)
 
 nombre = nombre.upper()
@@ -33,3 +33,8 @@ print(largo_texto)
 cadena_texto = "Franja   "
 cadena_texto = cadena_texto.strip()
 print( len(cadena_texto) )
+
+cadena_texto_2 = "Franja Python"
+print(cadena_texto_2.split())
+
+print('Esto es una cadena de {}'.format('TEXTO'))

@@ -1,7 +1,11 @@
 # Listas
 
 lista = [1, 2, 3, 4, 5, 'Nicolas']
+
 lista_2 = [6, 7, 8, 9, 10]
+
+lista_3 = [3, 8, 1, 0, 5, 4]
+
 print(lista)
 
 print(len(lista)) # Largo de la lista
@@ -36,6 +40,8 @@ lista.remove("Nicolas") # Remueve un elemento específico de la lista
 lista.pop() # Remueve el último elemento de la lista
 
 lista.pop(2) # Remueve un elemento específico de la lista según el índice que se le da
+
+lista_3.sort() # Ordena la lista
 
 x = tuple(lista) # Convierte la lista en una tupla
 
