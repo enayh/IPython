@@ -1,0 +1,1 @@
+# Escribir un programa que lea un archivo del "Ejercicio 1.py" y agregue cada linea a una lista y luego imprima la lista.
